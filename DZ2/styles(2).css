@@ -1,0 +1,15 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image {
+    flex: 0 0 33.33%; 
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .image img {
+    width: 100%; 
+    height: auto; 
+  }
